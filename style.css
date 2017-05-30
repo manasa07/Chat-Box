@@ -1,0 +1,128 @@
+.header {
+color: steelblue;
+font-size: 55px;
+text-align: center;
+padding-top: 10px;
+text-shadow: 1px 1px grey;
+}
+div.right-panel{
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 300px;
+  height: 450px;
+  border-radius: 8px;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 220px;
+  margin-left: 780px;
+  padding-top: 10px;
+  border-top-color: darkblue;
+  border-top-width: 4px;
+  box-shadow: 3px 3px 3px 3px lightgray;
+}
+div.left-panel {
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 300px;
+  height: 590px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  margin-top: -590px;
+  padding-top: 10px;
+}
+.message-inbox {
+  width:250px;
+}
+span{
+  font-family: "Times New Roman";
+  font-size: large;
+}
+span.lists {
+  font-size: 30px;
+}
+.notification_list {
+  font-family: "Times New Roman";
+  color: steelblue;
+  padding-top: -20px;
+  text-align: center;
+  height: 90px;
+  overflow-y: scroll;
+}
+#scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#scrollbar::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
+.date-panel {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: large ;
+  padding-top: 10px;
+  color: steelblue;
+  text-shadow: 1px 1px grey;
+}
+.present_day {
+  padding-right: 5px;
+}
+.time-panel {
+  text-align: center;
+  font-size: large;
+  color: steelblue;
+  text-shadow: 1px 1px gray;
+}
+.refresh-panel {
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+}
+.time-element {
+  border: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  width: 300px;
+  height: 60px;
+  padding-top: 15px;
+}
+.display-message {
+  list-style-type: none;
+  font-family: "Times New Roman";
+  font-size: medium;
+  text-align: left;
+  list-style-type:decimal
+}
+.scroll-bar {
+  max-height: 150px;
+  overflow-y: scroll;
+}
+.delete-button {
+  padding-left: 15px;
+}
+.remove-icon {
+  padding-left: 50px;
+}
+.refresh-button {
+  padding-top: 1px;
+}
+.cursor-symbol {
+  cursor:pointer;
+}
